@@ -1,0 +1,28 @@
+{
+  "name": "point-cloud-based-visualizer",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config ./src/client/webpack.prod.js",
+    "dev": "webpack serve --config ./src/client/webpack.dev.js"
+  },
+  "author": "adamblack",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "@types/three": "^0.146.0",
+    "dat.gui": "^0.7.9",
+    "three": "^0.146.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@types/offscreencanvas": "^2019.7.0",
+    "@types/pako": "^2.0.0",
+    "pako": "^2.1.0"
+  }
+}

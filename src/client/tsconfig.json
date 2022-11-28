@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "strict": true,
+        "typeRoots" : ["node_modules/@types", "src/types"]
+    },
+    "include": ["**/*.ts"]
+}
