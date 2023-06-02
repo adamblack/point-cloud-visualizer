@@ -10,7 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/dat.gui": "^0.7.7",
+    "@types/node": "^20.1.5",
     "@types/three": "^0.146.0",
+    "@webgpu/types": "^0.1.31",
     "dat.gui": "^0.7.9",
     "three": "^0.146.0",
     "ts-loader": "^9.4.1",
@@ -23,6 +25,9 @@
   "dependencies": {
     "@types/offscreencanvas": "^2019.7.0",
     "@types/pako": "^2.0.0",
+    "@webgpu/types": "^0.1.31",
+    "gl-matrix": "^3.4.3",
+    "nerdamer": "^1.1.13",
     "pako": "^2.1.0"
   }
 }

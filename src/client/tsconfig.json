@@ -4,7 +4,20 @@
         "target": "ESNext",
         "moduleResolution": "node",
         "strict": true,
-        "typeRoots" : ["node_modules/@types", "src/types"]
+        "typeRoots" : ["./node_modules/@webgpu/types/dist", "node_modules/@types", "src/types"],
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "types": [
+            // ... other types
+            "node"
+          ],
     },
-    "include": ["**/*.ts"]
+    "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.d.ts"
+  ],
 }
